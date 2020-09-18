@@ -1,0 +1,25 @@
+html {
+    background-image: url(images/background.jpg);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+section {
+    border-bottom: 0.02rem solid gray;
+    margin: 2rem;
+}
+article {
+    margin: 1rem;
+}
+img {
+    margin: 1rem 0 1rem;
+}
+h1 {
+    color: crimson;
+}
+p {
+    display: inline;
+}
+p.name {
+    font-size: larger;
+    color: crimson;
+}
