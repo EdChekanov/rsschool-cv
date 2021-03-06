@@ -13,6 +13,14 @@ article {
 img {
     margin: 1rem 0 1rem;
 }
+img.photo {
+    width: 14rem;
+    border-radius: 10%;
+    box-shadow: 0 0 0.5rem 0.5rem rgba(0,0,0,0.75);
+}
+img.vk:hover {
+    outline: 2px solid grey;
+}
 h1 {
     color: crimson;
     font-style: italic;
