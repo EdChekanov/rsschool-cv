@@ -23,6 +23,14 @@ h1 {
     font-weight: normal;
 }
 
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3rem;
+    line-height: 4.5rem;
+    color: #333333;
+    font-weight: normal;
+}
+
 p {
     font-family: 'Open Sans', sans-serif;
     font-size: 1.125rem;
@@ -30,11 +38,12 @@ p {
     color: #F7F7F7;
 }
 
-/* header {
+ header {
     background: #070E19;
     background: url(assets/Fox.jpg) top no-repeat;
+    min-height: 48.6875rem;
 }
-
+/*
 main {
     background: #ccc;
 }
@@ -87,9 +96,11 @@ a.signIn {
 }
 a.signIn:hover {
     background: #CD6326;
+    border: 0.125rem solid #CD6326;
 }
 a.signIn:active {
     background: #8F5613;
+    border: 0.125rem solid #8F5613;
 }
 
 a.search {
@@ -109,4 +120,42 @@ a.search {
 }
 .survival p {
     width: 17.5rem;
+    margin-bottom: 4.0625rem;
 }
+.survival a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4375rem;
+    line-height: 1.6875rem;
+    color: #F7F7F7;
+    text-decoration: none;
+    border: 0.125rem solid #CD6326;
+    box-sizing: border-box;
+    border-radius: 0.3125rem;
+    padding: 0.9375rem 2.625rem;
+    background: #CD6326;
+    margin-bottom: 50px;
+}
+.survival a:hover {
+    background: #e39128;
+    border: 0.125rem solid #e39128;
+}
+.survival a:active {
+    background: #8F5613;
+    border: 0.125rem solid #8F5613;
+}
+
+/* MAIN - LATESTARTICLES */
+
+.latestArticles h2 {
+    margin-top: 7.625rem;
+    margin-bottom: 1.1875rem;
+}
+
+.latestArticles p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    color: #666666;
+    margin-top: 0;
+}
+
