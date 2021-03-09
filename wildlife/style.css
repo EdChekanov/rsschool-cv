@@ -202,7 +202,7 @@ article h4 {
     right: 10%;
     top: 60%;
 }
-.galery a:hover {
+.galery a.arrow:hover {
     transform: skew(-10deg);
 }
 .galery a.bounce:hover {
