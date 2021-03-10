@@ -1,0 +1,41 @@
+@media (max-width: 1200px) {
+    html {
+        font-size: 12px;
+    }
+    .logo {
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 768px) {
+    html {
+        font-size: 8px;
+    }
+    .logo {
+        flex-wrap: wrap;
+    }
+    .galery a.arrow {
+        display: none;
+    }
+}
+@media (max-width: 480px) {
+    html {
+        font-size: 4px;
+    }
+    .logo {
+        flex-wrap: wrap;
+    }
+    .galery a.arrow {
+        display: none;
+    }
+}
+@media (max-width: 290px) {
+    html {
+        font-size: 2px;
+    }
+    .logo {
+        flex-wrap: wrap;
+    }
+    .galery a.arrow {
+        display: none;
+    }
+}
