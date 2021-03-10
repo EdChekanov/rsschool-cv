@@ -1,16 +1,12 @@
 .wrapper {
-    max-width: 1200px;
+    max-width: 75rem;
     margin: 0 auto;
 }
 .noVisible {
     display:none;
 }
-.Visible {
-    display: inline;
-}
 
 body {
-    background: url(assets/SiteFull.jpg) top center no-repeat;
     text-align: center;
 }
 
@@ -54,6 +50,7 @@ p {
  header {
     background: #02160b;
     background: url(assets/Fox.jpg) top no-repeat;
+    background-size: 90rem;
     min-height: 48.6875rem;
 }
 
@@ -64,11 +61,13 @@ main {
 footer {
     background: #181617;
     background: url(assets/footer.jpg) top no-repeat;
-}
+    background-size: 90rem;
+    }
 
 /* HEADER-HEAD */
 .logo {
     display: flex;
+    width: 4.2625rem;
 }
 .logo > p {
     font-family: 'Roboto', sans-serif;
@@ -83,6 +82,7 @@ footer {
 }
 nav ul{
     display: flex;
+    flex-wrap: wrap;
     list-style-type: none;
     margin-top: 1.25rem;
     margin-bottom: 5.5625rem;
@@ -92,7 +92,7 @@ nav ul li {
     margin-right: 1.4375rem;
     align-self: center;
 }
-nav ul li a{
+nav ul li a {
 font-family: 'Open Sans', sans-serif;
 font-size: 1.4375rem;
 line-height: 3.75rem;
@@ -102,6 +102,19 @@ text-decoration: none;
 nav ul li a:hover {
     border-bottom: 2px solid #F7F7F7;
 }
+nav ul li input {
+    width: 10rem;
+    height: 3.125rem;
+    box-sizing: border-box;
+    border-radius: 0.3125rem;
+    border: 0.125rem solid #CD6326;
+    background-color: rgba(204,204,204, 0);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.4375rem;
+    line-height: 3.75rem;
+    color: #F7F7F7;
+}
+
 a.signIn {
     font-family: 'Roboto', sans-serif;
     border: 0.125rem solid #CD6326;
@@ -149,7 +162,6 @@ a.search {
     border-radius: 0.3125rem;
     padding: 0.9375rem 2.625rem;
     background: #CD6326;
-    margin-bottom: 50px;
 }
 .survival a:hover {
     background: #e39128;
@@ -163,7 +175,8 @@ a.search {
 /* MAIN - LATESTARTICLES */
 
 .latestArticles h2 {
-    margin-top: 7.625rem;
+    padding-top: 7.625rem;
+    margin-top: 0;
     margin-bottom: 1.1875rem;
 }
 
@@ -193,6 +206,9 @@ article {
     position: relative;
 }
 
+article img {
+    width: 18.75rem;
+}
 article p {
     position: absolute;
     left: 10%;
@@ -220,7 +236,7 @@ article h4 {
 
 .latestArticles .email {
     margin-top: 3.6875rem;
-    margin-bottom: 14.9375rem;
+    padding-bottom: 14.9375rem;
 }
 
 .email input {
@@ -275,6 +291,7 @@ footer .logo {
 
 footer .navigation {
     display: flex;
+    flex-wrap: wrap;
     list-style-type: none;
     justify-content: center;
     align-self: center;
@@ -296,13 +313,15 @@ footer .navigation li a:hover {
 
 footer .socials {
     display: flex;
+    flex-wrap: wrap;
     list-style-type: none;
     justify-content: flex-end;
     align-self: center;
     flex-grow: 1;
 }
-footer .socials li{
+footer .socials li img{
     margin-left: 1.625rem;
+    width: 2.5rem;
 }
 footer .socials li a img:hover {
     opacity: 0.5;
