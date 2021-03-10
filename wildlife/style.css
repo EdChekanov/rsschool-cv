@@ -52,19 +52,19 @@ p {
 }
 
  header {
-    background: #070E19;
+    background: #02160b;
     background: url(assets/Fox.jpg) top no-repeat;
     min-height: 48.6875rem;
 }
-/*
+
 main {
     background: #ccc;
 }
 
 footer {
-    background: #070E19;
+    background: #181617;
     background: url(assets/footer.jpg) top no-repeat;
-} */
+}
 
 /* HEADER-HEAD */
 .logo {
@@ -98,6 +98,9 @@ font-size: 1.4375rem;
 line-height: 3.75rem;
 color: #F7F7F7;
 text-decoration: none;
+}
+nav ul li a:hover {
+    border-bottom: 2px solid #F7F7F7;
 }
 a.signIn {
     font-family: 'Roboto', sans-serif;
@@ -209,3 +212,98 @@ article h4 {
     animation: bounce 1s;
 }
 
+/* MAIN - LA - NOTIFIED */
+
+.latestArticles h3 {
+    margin-top: 14.71875rem;
+}
+
+.latestArticles .email {
+    margin-top: 3.6875rem;
+    margin-bottom: 14.9375rem;
+}
+
+.email input {
+    width: 33.75rem;
+    height: 3.875rem;
+    background-color: rgba(204,204,204, 0);
+    border: 0.0625rem solid #666;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4375rem;
+    line-height: 1.6875rem;
+    color: #666;
+    box-sizing: border-box;
+    padding-left: 0.9375rem;
+}
+.email button {
+    width: 7.5rem;
+    height: 3.875rem;
+    background-color: #CD6326;
+    border: 0.0625rem solid #CD6326;
+    border-radius: 0 0.3125rem 0.3125rem 0;
+    box-sizing: border-box;
+    position: relative;
+    right: 0.3125rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4375rem;
+    line-height: 1.6875rem;
+    color: #F7F7F7;
+}
+.email button:hover {
+    background: ;
+}
+.email button:hover {
+    background: #e39128;
+    border: 0.125rem solid #e39128;
+}
+.email button:active {
+    background: #8F5613;
+    border: 0.125rem solid #8F5613;
+}
+
+/* FOOTER */
+footer .wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 8.1875rem;
+    padding-bottom: 8.0625rem;
+}
+
+footer .logo {
+    flex-grow: 1;
+}
+
+footer .navigation {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-self: center;
+    flex-grow: 3.5;
+}
+footer .navigation li a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.4375rem;
+    line-height: 3.75rem;
+    color: #F7F7F7;
+    text-decoration: none;
+    margin: 0 2.75rem;
+    position: relative;
+    left: 1.125rem;
+}
+footer .navigation li a:hover {
+    border-bottom: 2px solid #F7F7F7;
+}
+
+footer .socials {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    align-self: center;
+    flex-grow: 1;
+}
+footer .socials li{
+    margin-left: 1.625rem;
+}
+footer .socials li a img:hover {
+    opacity: 0.5;
+}
