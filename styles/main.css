@@ -11,12 +11,27 @@ body {
     line-height: 140%;
     background: #ddd;
 }
-main {
+.container {
+    animation: pulsate 2s infinite;
     width: 65%;
     margin: 0 auto;
+}
+
+/* HEADER */
+header {
+    position: sticky;
+    top: 0;
+    background: #ddd;
+}
+.nav {
     display: flex;
-    flex-direction: column;
-    animation: pulsate 2s infinite;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    margin: 0;
+}
+.nav-item {
+    line-height: 200%;
 }
 
 /* INFO */
@@ -72,6 +87,18 @@ main {
 .subtitle {
     font-size: 16px;
     margin-bottom: 0;
+}
+
+/* FOOTER  */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+.rss {
+    width: 100px;
 }
 
 /* keyframe */
