@@ -123,21 +123,21 @@
           <!-- /.title -->
           <pre class="text">
 function validPass(password) {
-    if (password.length < 4 || password.length > 19) {
-      return 'INVALID';
-    };
-    if (password.replace(/[A-Z|a-z]/g, 'p') === password.replace(/[A_Z|a-z|0-9]/g, 'p')) {
-      return 'INVALID';
-    };
-    let passwordCheck;
-    passwordCheck = password.replace(/[a-z|A-Z]|[0-9]|_/g, 'p');
-    passwordCheck = passwordCheck.split('');
-    if (passwordCheck.filter(el => el === 'p').length === passwordCheck.length) {
-      return 'VALID';
-    } else {
-      return 'INVALID';
-    }
+  if (password.length < 4 || password.length > 19) {
+    return 'INVALID';
+  };
+  if (password.replace(/[A-Z|a-z]/g, 'p') === password.replace(/[A_Z|a-z|0-9]/g, 'p')) {
+    return 'INVALID';
+  };
+  let passwordCheck;
+  passwordCheck = password.replace(/[a-z|A-Z]|[0-9]|_/g, 'p');
+  passwordCheck = passwordCheck.split('');
+  if (passwordCheck.filter(el => el === 'p').length === passwordCheck.length) {
+    return 'VALID';
+  } else {
+    return 'INVALID';
   }
+}
             </pre
           >
           <!-- /.text -->

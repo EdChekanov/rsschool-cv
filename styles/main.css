@@ -31,14 +31,6 @@ header {
     margin: 0;
     min-height: 10vh;
 }
-/* #skills,
-#speak,
-#lastWorks,
-#education,
-#code,
-#about {
-    padding-top: 10vh;
-} */
 
 /* INFO */
 
@@ -123,7 +115,23 @@ footer {
 
 /* MEDIA */
 
+@media (max-width:900px) {
+    .container {
+        width: 90%;
+    }
+}
 @media (max-width:650px) {
+    .nav {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .nav-item {
+        margin-right: auto;
+    }
+    .container {
+        width: 100%;
+        animation: none;
+    }
     .title,
     .list,
     .subtitle,
@@ -143,6 +151,11 @@ footer {
     }
     .col-about {
         text-align: center;
+    }
+}
+@media (max-width:340px) {
+    header {
+        position: static;
     }
 }
 @media (max-width:260px) {
