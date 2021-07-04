@@ -36,13 +36,13 @@
         </nav>
       </header>
       <main>
-        <div class="col-info">
+        <section class="col-info">
           <img
             src="images/Ed-photo.jpg"
             alt="photo: Ed Chekanov"
             class="photo"
           />
-          <h2 class="heading">Ed Chekanov</h2>
+          <h1 class="heading">Ed Chekanov</h1>
           <!-- /.heading -->
           <p class="subheading">Junior front-end developer</p>
           <!-- /.subheading -->
@@ -58,6 +58,7 @@
             <li>Adaptive layout</li>
             <li>Figma, PhotoShop</li>
             <li>Work expirience with GIT, GitHub</li>
+            <li>English level A1-A2</li>
           </ul>
           <!-- /.skills.list -->
           <h2 id="speak" class="title">Let's speak</h2>
@@ -88,9 +89,9 @@
             </li>
           </ul>
           <!-- /.list contacts -->
-        </div>
+        </section>
         <!-- /.col-info -->
-        <div class="col-about">
+        <section class="col-about">
           <h2 id="lastWorks" class="title">Examples of last works</h2>
           <!-- /.title -->
           <a href="https://edchekanov.github.io/FindYourJob/" class="link">
@@ -123,7 +124,7 @@
           <!-- /.title -->
           <pre class="text">
 function validPass(password) {
-  if (password.length < 4 || password.length > 19) {
+  if (password.length &lt; 4 || password.length &gt; 19) {
     return 'INVALID';
   };
   if (password.replace(/[A-Z|a-z]/g, 'p') === password.replace(/[A_Z|a-z|0-9]/g, 'p')) {
@@ -132,7 +133,7 @@ function validPass(password) {
   let passwordCheck;
   passwordCheck = password.replace(/[a-z|A-Z]|[0-9]|_/g, 'p');
   passwordCheck = passwordCheck.split('');
-  if (passwordCheck.filter(el => el === 'p').length === passwordCheck.length) {
+  if (passwordCheck.filter(el =&gt; el === 'p').length === passwordCheck.length) {
     return 'VALID';
   } else {
     return 'INVALID';
@@ -155,7 +156,7 @@ function validPass(password) {
             became a father so it got harder, but i try. Wish me good luck!)
           </p>
           <!-- /.text -->
-        </div>
+        </section>
         <!-- /.col-about -->
       </main>
       <footer>
@@ -167,7 +168,7 @@ function validPass(password) {
           <!-- /.text -->
           <a href="https://rs.school/js/"><img class="rss" src="images/rs_school_js.svg" alt="logo: rolling scope school"></a>
       </footer>
-    </div>
-  </body>
+    </div>  
   <script src="script/main.js"></script>
+  </body>
 </html>
