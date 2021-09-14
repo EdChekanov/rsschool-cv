@@ -9,6 +9,7 @@
       href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap"
       rel="stylesheet"
     />
+    <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="styles/reseter.min.css" />
     <link rel="stylesheet" type="text/css" href="styles/main.css" />
     <title>Ed Chekanov</title>
@@ -31,9 +32,21 @@
             <!-- /.nav-item -->
             <li class="nav-item"><a class="link scroll" href="#about">About</a></li>
             <!-- /.nav-item -->
+            <li class="nav-item">
+            </li>
+            <!-- /.nav-item -->
           </ul>
           <!-- /.nav -->
         </nav>
+        <button type="button" class="burger_btn open_burger">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </button>
+        <button class="burger_btn close_burger">
+          <span class="line"></span>
+          <span class="line"></span>
+        </button>
       </header>
       <main>
         <section class="col-info">
@@ -168,7 +181,9 @@ function validPass(password) {
           <!-- /.text -->
           <a href="https://rs.school/js/"><img class="rss" src="images/rs_school_js.svg" alt="logo: rolling scope school"></a>
       </footer>
-    </div>  
-  <script src="script/main.js"></script>
+    </div>
+    <script src="scripts/scroll.js"></script>
+    <script src="scripts/header-height.js"></script>
+    <script src="scripts/burger.js"></script>
   </body>
 </html>
