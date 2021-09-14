@@ -33,9 +33,15 @@ nav {
     align-items: center;
     padding: 0 30px;
     margin: 0;
+<<<<<<< HEAD
     min-height: 3vw;
     transition: 0.2s;
     background: rgb(221, 221, 221);
+=======
+    min-height: 5vw;
+    transition: 2s;
+    background: #ddd;
+>>>>>>> 0559064 (feat: add burger menu)
     position: relative;
 }
 .burger_btn {
@@ -50,14 +56,22 @@ nav {
 .burger_btn:focus {
   outline: none;
 }
+.burger_btn:focus {
+  outline: none;
+}
 .open_burger {
     position: relative;
+<<<<<<< HEAD
     top: 10px;
     display: none;
     transition: 0.5s;
     transform: scale(1.5);
     margin-top: 20px;
     margin-right: 20px;
+=======
+    display: none;
+    transition: 0.5s;
+>>>>>>> 0559064 (feat: add burger menu)
 }
 .line {
     background: rgb(121, 121, 89);
@@ -66,6 +80,12 @@ nav {
     transition: 1s;
     position: absolute;
     top: 0;
+<<<<<<< HEAD
+=======
+    background: #ddd;
+    display: none;
+    transition: 0.5s;
+>>>>>>> 0559064 (feat: add burger menu)
 }
 .open_burger .line:nth-child(2) {
     top: 30%;
@@ -204,6 +224,7 @@ footer {
         width: 100%;
     }
     .nav {
+<<<<<<< HEAD
         flex-direction: column;
         align-items: flex-start;
         width: 90%;
@@ -213,6 +234,12 @@ footer {
         position: relative;
         top: -250px;
         left: -250px;
+=======
+        flex-wrap: wrap;
+        justify-content: center;
+        display: none;
+        transition: 0.5s;
+>>>>>>> 0559064 (feat: add burger menu)
     }
     .nav-item {
         margin-right: auto;
@@ -246,6 +273,14 @@ footer {
     }
     .close_burger {
         top: 10px;
+<<<<<<< HEAD
+=======
+    }
+}
+@media (max-width:340px) {
+    header {
+        position: static;
+>>>>>>> 0559064 (feat: add burger menu)
     }
 }
 @media (max-width:260px) {
