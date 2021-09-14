@@ -9,6 +9,7 @@
       href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap"
       rel="stylesheet"
     />
+    <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="styles/reseter.min.css" />
     <link rel="stylesheet" type="text/css" href="styles/main.css" />
     <title>Ed Chekanov</title>
@@ -31,12 +32,24 @@
             <!-- /.nav-item -->
             <li class="nav-item"><a class="link scroll" href="#about">About</a></li>
             <!-- /.nav-item -->
+            <li class="nav-item">
+            </li>
+            <!-- /.nav-item -->
           </ul>
           <!-- /.nav -->
         </nav>
+        <button class="burger_btn open_burger">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </button>
+        <button class="burger_btn close_burger">
+          <span class="line"></span>
+          <span class="line"></span>
+        </button>
       </header>
       <main>
-        <div class="col-info">
+        <section class="col-info">
           <img
             src="images/Ed-photo.jpg"
             alt="photo: Ed Chekanov"
@@ -88,9 +101,9 @@
             </li>
           </ul>
           <!-- /.list contacts -->
-        </div>
+        </section>
         <!-- /.col-info -->
-        <div class="col-about">
+        <section class="col-about">
           <h2 id="lastWorks" class="title">Examples of last works</h2>
           <!-- /.title -->
           <a href="https://edchekanov.github.io/FindYourJob/" class="link">
@@ -155,7 +168,7 @@ function validPass(password) {
             became a father so it got harder, but i try. Wish me good luck!)
           </p>
           <!-- /.text -->
-        </div>
+        </section>
         <!-- /.col-about -->
       </main>
       <footer>
@@ -168,6 +181,7 @@ function validPass(password) {
           <a href="https://rs.school/js/"><img class="rss" src="images/rs_school_js.svg" alt="logo: rolling scope school"></a>
       </footer>
     </div>
+    <script src="script/scroll.js"></script>
+    <script src="script/header-height.js"></script>
   </body>
-  <script src="script/main.js"></script>
 </html>
