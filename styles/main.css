@@ -40,8 +40,12 @@ nav {
 =======
     min-height: 5vw;
     transition: 2s;
+<<<<<<< HEAD
     background: #ddd;
 >>>>>>> 0559064 (feat: add burger menu)
+=======
+    background: rgb(221, 221, 221);
+>>>>>>> 06a5d2a (feat: finish burger menu)
     position: relative;
 }
 .burger_btn {
@@ -62,12 +66,16 @@ nav {
 .open_burger {
     position: relative;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 06a5d2a (feat: finish burger menu)
     top: 10px;
     display: none;
     transition: 0.5s;
     transform: scale(1.5);
     margin-top: 20px;
     margin-right: 20px;
+<<<<<<< HEAD
 =======
     display: none;
     transition: 0.5s;
@@ -103,6 +111,28 @@ nav {
 .close_burger .line:last-child {
     top: 30%;
     transform: rotate(-1035deg);
+=======
+}
+.line {
+    border: 1px solid rgb(121, 121, 89);;
+    height: 2px;
+    width: 100%;
+    transition: 2s;
+}
+.close_burger {
+  top: 0;
+}
+.close_burger .line:first-child {
+    transform: rotate(225deg);
+}
+.close_burger .line:nth-child(2) {
+  transform: rotate(315deg);
+  position: relative;
+  bottom: 9px;
+}
+.close_burger .line:last-child {
+  opacity: 0;
+>>>>>>> 06a5d2a (feat: finish burger menu)
 }
 
 /* INFO */
@@ -225,10 +255,14 @@ footer {
     }
     .nav {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 06a5d2a (feat: finish burger menu)
         flex-direction: column;
         align-items: flex-start;
         width: 90%;
         background: rgba(221, 221, 221, 0.9);
+<<<<<<< HEAD
         transition: 0.5s;
         border-bottom-right-radius: 100%;
         position: relative;
@@ -240,6 +274,13 @@ footer {
         display: none;
         transition: 0.5s;
 >>>>>>> 0559064 (feat: add burger menu)
+=======
+        transition: 0.5s;
+        border-bottom-right-radius: 100%;
+        position: relative;
+        top: -250px;
+        left: -250px;
+>>>>>>> 06a5d2a (feat: finish burger menu)
     }
     .nav-item {
         margin-right: auto;
