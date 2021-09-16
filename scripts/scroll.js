@@ -5,7 +5,7 @@
           e.preventDefault();
           const id = link.getAttribute('href').substring(1);
           const el = document.getElementById(id);
-          const offset = 100;
+          const offset = 150;
           const bodyRect = document.body.getBoundingClientRect().top;
           const elRect = el.getBoundingClientRect().top;
           const elPosition = elRect - bodyRect;
