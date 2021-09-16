@@ -227,9 +227,12 @@ mark {
     flex-direction: column;
     align-items: flex-end;
 }
+<<<<<<< HEAD
 .hover:hover {
   opacity: 0.7;
 }
+=======
+>>>>>>> 00aa776 (fix: last fixes)
 /* FOOTER  */
 
 footer {
@@ -334,12 +337,15 @@ footer {
 =======
     }
 }
+<<<<<<< HEAD
 @media (max-width:340px) {
     header {
         position: static;
 >>>>>>> 0559064 (feat: add burger menu)
     }
 }
+=======
+>>>>>>> 00aa776 (fix: last fixes)
 @media (max-width:260px) {
     .title,
     .list,
