@@ -39,11 +39,15 @@ nav {
     background: rgb(221, 221, 221);
 =======
     min-height: 5vw;
+<<<<<<< HEAD
     transition: 2s;
 <<<<<<< HEAD
     background: #ddd;
 >>>>>>> 0559064 (feat: add burger menu)
 =======
+=======
+    transition: 0.2s;
+>>>>>>> c1703a6 (fix: burger problem)
     background: rgb(221, 221, 221);
 >>>>>>> 06a5d2a (feat: finish burger menu)
     position: relative;
@@ -56,9 +60,12 @@ nav {
     height: 5vw;
     width: 5vw;
     border: none;
+<<<<<<< HEAD
 }
 .burger_btn:focus {
   outline: none;
+=======
+>>>>>>> c1703a6 (fix: burger problem)
 }
 .burger_btn:focus {
   outline: none;
@@ -114,25 +121,34 @@ nav {
 =======
 }
 .line {
-    border: 1px solid rgb(121, 121, 89);;
-    height: 2px;
+    background: rgb(121, 121, 89);
+    height: 4px;
     width: 100%;
-    transition: 2s;
+    transition: 1s;
+    position: absolute;
+    top: 0;
 }
-.close_burger {
-  top: 0;
+.open_burger .line:nth-child(2) {
+    top: 30%;
+}
+.open_burger .line:last-child {
+    top: 60%;
 }
 .close_burger .line:first-child {
-    transform: rotate(225deg);
+    top: 30%;
+    transform: rotate(1035deg);
 }
 .close_burger .line:nth-child(2) {
-  transform: rotate(315deg);
-  position: relative;
-  bottom: 9px;
+    opacity: 0;
 }
 .close_burger .line:last-child {
+<<<<<<< HEAD
   opacity: 0;
 >>>>>>> 06a5d2a (feat: finish burger menu)
+=======
+    top: 30%;
+    transform: rotate(-1035deg);
+>>>>>>> c1703a6 (fix: burger problem)
 }
 
 /* INFO */
