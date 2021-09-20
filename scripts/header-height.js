@@ -5,7 +5,7 @@
     if (window.pageYOffset) {
       nav.style.minHeight = '2vw'
     } else {
-      nav.style.minHeight = '5vw'
+      nav.style.minHeight = '3vw'
     }
   })
 })();
