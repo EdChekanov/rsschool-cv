@@ -34,6 +34,7 @@ nav {
     padding: 0 30px;
     margin: 0;
 <<<<<<< HEAD
+<<<<<<< HEAD
     min-height: 3vw;
     transition: 0.2s;
     background: rgb(221, 221, 221);
@@ -46,6 +47,9 @@ nav {
 >>>>>>> 0559064 (feat: add burger menu)
 =======
 =======
+=======
+    min-height: 3vw;
+>>>>>>> 7b1f144 (fix: nav height)
     transition: 0.2s;
 >>>>>>> c1703a6 (fix: burger problem)
     background: rgb(221, 221, 221);
