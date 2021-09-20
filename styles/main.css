@@ -119,6 +119,12 @@ nav {
     text-decoration: underline;
     color: rgb(216, 66, 66);
 }
+mark {
+  background-color: #fff;
+  color: rgb(145, 145, 128);
+  border-top-right-radius: 25%;
+  border-bottom-left-radius: 25%;
+}
 
 /* ABOUT */
 
