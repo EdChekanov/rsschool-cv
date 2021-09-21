@@ -1,0 +1,263 @@
+ul {
+    list-style: none;
+}
+a {
+    color: rgb(145, 145, 128);
+    line-height: 140%;
+}
+body {
+    font-family: 'Balsamiq Sans', cursive;
+    color: rgb(145, 145, 128);
+    line-height: 140%;
+    background: #ddd;
+}
+.container {
+    animation: pulsate 2s infinite;
+    width: 65%;
+    margin: 0 auto;
+}
+
+/* HEADER */
+header {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+}
+nav {
+  width: 100%;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    margin: 0;
+    min-height: 3vw;
+    transition: 0.2s;
+    background: rgb(221, 221, 221);
+    position: relative;
+}
+.burger_btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 5vw;
+    width: 5vw;
+    border: none;
+}
+.burger_btn:focus {
+  outline: none;
+}
+.open_burger {
+    position: relative;
+    top: 10px;
+    display: none;
+    transition: 0.5s;
+    transform: scale(1.5);
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.line {
+    background: rgb(121, 121, 89);
+    height: 4px;
+    width: 100%;
+    transition: 1s;
+    position: absolute;
+    top: 0;
+}
+.open_burger .line:nth-child(2) {
+    top: 30%;
+}
+.open_burger .line:last-child {
+    top: 60%;
+}
+.close_burger .line:first-child {
+    top: 30%;
+    transform: rotate(1035deg);
+}
+.close_burger .line:nth-child(2) {
+    opacity: 0;
+}
+.close_burger .line:last-child {
+    top: 30%;
+    transform: rotate(-1035deg);
+}
+
+/* INFO */
+
+.col-info {
+    width: 100%;
+    background-color: #000;
+    padding: 10px;
+    text-align: center;
+}
+.photo {
+    max-width: 50%;
+    border-radius: 2%;
+}
+.title {
+    margin-top: 50px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.list {
+    text-align: left;
+}
+.link:hover {
+    opacity: 0.5;
+    color: rgb(145, 145, 128);
+    line-height: 140%;
+    text-decoration: none;
+}
+.link:active {
+    opacity: 0.2;
+}
+.link:focus {
+    outline: none;
+    text-decoration: underline;
+    color: rgb(216, 66, 66);
+}
+mark {
+  background-color: #fff;
+  color: rgb(145, 145, 128);
+  border-top-right-radius: 25%;
+  border-bottom-left-radius: 25%;
+}
+
+/* ABOUT */
+
+.col-about {
+    width: 100%;
+    background-color: #fff;
+    padding: 10px;
+    text-align: left;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.heading,
+.title {
+    color: rgb(121, 121, 89);
+}
+.heading {
+    line-height: 100%;
+}
+.subtitle {
+    font-size: 16px;
+    margin-bottom: 0;
+}
+.works {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.works_img {
+    width: 30%;
+}
+.works_text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+/* FOOTER  */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+.rss {
+    width: 100px;
+}
+
+/* keyframe */
+
+@keyframes pulsate {
+    0% {
+        box-shadow: 0 0 35px rgb(0, 0, 0);
+    }
+    50% {
+        box-shadow: 0 0 70px rgb(0, 0, 0);
+    }
+    100% {
+        box-shadow: 0 0 35px rgb(0, 0, 0);
+    }
+}
+
+/* MEDIA */
+
+@media (max-width:900px) {
+    .container {
+        width: 90%;
+    }
+}
+@media (max-width:650px) {
+    header {
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+    .nav {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 90%;
+        background: rgba(221, 221, 221, 0.9);
+        transition: 0.5s;
+        border-bottom-right-radius: 100%;
+        position: relative;
+        top: -250px;
+        left: -250px;
+    }
+    .nav-item {
+        margin-right: auto;
+    }
+    .open_burger {
+        display: flex;
+    }
+    .container {
+        width: 100%;
+        animation: none;
+    }
+    .title,
+    .list,
+    .subtitle,
+    .text {
+        font-size: 14px;
+    }
+}
+@media (max-width:560px) {
+    .col-info {
+        width: 100%;
+    }
+    .col-about {
+        width: 100%;
+    }
+    .photo {
+        max-height: 70vh;
+    }
+    .col-about {
+        text-align: center;
+    }
+    .close_burger {
+        top: 10px;
+    }
+}
+@media (max-width:260px) {
+    .title,
+    .list,
+    .subtitle,
+    .text {
+        font-size: 12px;
+    }
+}
+@media (max-width:200px) {
+    .title,
+    .list,
+    .subtitle,
+    .text {
+        font-size: 10px;
+    }
+}
