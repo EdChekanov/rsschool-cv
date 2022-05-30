@@ -232,11 +232,17 @@ mark {
     align-items: flex-end;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .hover:hover {
   opacity: 0.7;
 }
 =======
 >>>>>>> 00aa776 (fix: last fixes)
+=======
+.hover:hover {
+  opacity: 0.7;
+}
+>>>>>>> cbda6c9 (docs: update cv)
 /* FOOTER  */
 
 footer {
