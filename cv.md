@@ -33,6 +33,7 @@ public openAddColumnModal(e: Event, id: string | null): void {
 ## About
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Let me tell you a few words about myself. My name is Ed, I'm 28. I live and work in Mogilev, Belarus. I graduated from University in 2016 and received major - engineer-builder on the railway. Later I become interested in the web development and started learning HTML and CSS. 
 In 2021-2022 I went to course of front-end development by the Rolling Scopes School, it contain series of 4th courses(JS+Angular) and succesfully finished each of them. 
 Now I continue grown up my webdev knowledges and hope to find my first job in new sphere for myself.
@@ -47,3 +48,8 @@ Let me tell you a few words about myself. My name is Eduard. I'm was born in Mog
 In 2021-2022 I went to course of front-end development by the Rolling Scopes School, it contain series of 4th courses(JS+Angular) and succesfully finished each of them. 
 Now I'm hope to find my first job in new sphere for myself.
 >>>>>>> cbda6c9 (docs: update cv)
+=======
+Let me tell you a few words about myself. My name is Ed, I'm 28. I live and work in Mogilev, Belarus. I graduated from University in 2016 and received major - engineer-builder on the railway. Later I become interested in the web development and started learning HTML and CSS. 
+In 2021-2022 I went to course of front-end development by the Rolling Scopes School, it contain series of 4th courses(JS+Angular) and succesfully finished each of them. 
+Now I continue grown up my webdev knowledges and hope to find my first job in new sphere for myself.
+>>>>>>> a10875e (docs: update cv md)
