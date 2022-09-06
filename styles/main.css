@@ -33,27 +33,9 @@ nav {
     align-items: center;
     padding: 0 30px;
     margin: 0;
-<<<<<<< HEAD
-<<<<<<< HEAD
     min-height: 3vw;
     transition: 0.2s;
     background: rgb(221, 221, 221);
-=======
-    min-height: 5vw;
-<<<<<<< HEAD
-    transition: 2s;
-<<<<<<< HEAD
-    background: #ddd;
->>>>>>> 0559064 (feat: add burger menu)
-=======
-=======
-=======
-    min-height: 3vw;
->>>>>>> 7b1f144 (fix: nav height)
-    transition: 0.2s;
->>>>>>> c1703a6 (fix: burger problem)
-    background: rgb(221, 221, 221);
->>>>>>> 06a5d2a (feat: finish burger menu)
     position: relative;
 }
 .burger_btn {
@@ -64,65 +46,18 @@ nav {
     height: 5vw;
     width: 5vw;
     border: none;
-<<<<<<< HEAD
-}
-.burger_btn:focus {
-  outline: none;
-=======
->>>>>>> c1703a6 (fix: burger problem)
 }
 .burger_btn:focus {
   outline: none;
 }
 .open_burger {
     position: relative;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 06a5d2a (feat: finish burger menu)
     top: 10px;
     display: none;
     transition: 0.5s;
     transform: scale(1.5);
     margin-top: 20px;
     margin-right: 20px;
-<<<<<<< HEAD
-=======
-    display: none;
-    transition: 0.5s;
->>>>>>> 0559064 (feat: add burger menu)
-}
-.line {
-    background: rgb(121, 121, 89);
-    height: 4px;
-    width: 100%;
-    transition: 1s;
-    position: absolute;
-    top: 0;
-<<<<<<< HEAD
-=======
-    background: #ddd;
-    display: none;
-    transition: 0.5s;
->>>>>>> 0559064 (feat: add burger menu)
-}
-.open_burger .line:nth-child(2) {
-    top: 30%;
-}
-.open_burger .line:last-child {
-    top: 60%;
-}
-.close_burger .line:first-child {
-    top: 30%;
-    transform: rotate(1035deg);
-}
-.close_burger .line:nth-child(2) {
-    opacity: 0;
-}
-.close_burger .line:last-child {
-    top: 30%;
-    transform: rotate(-1035deg);
-=======
 }
 .line {
     background: rgb(121, 121, 89);
@@ -146,13 +81,8 @@ nav {
     opacity: 0;
 }
 .close_burger .line:last-child {
-<<<<<<< HEAD
-  opacity: 0;
->>>>>>> 06a5d2a (feat: finish burger menu)
-=======
     top: 30%;
     transform: rotate(-1035deg);
->>>>>>> c1703a6 (fix: burger problem)
 }
 
 /* INFO */
@@ -231,18 +161,6 @@ mark {
     flex-direction: column;
     align-items: flex-end;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-.hover:hover {
-  opacity: 0.7;
-}
-=======
->>>>>>> 00aa776 (fix: last fixes)
-=======
-.hover:hover {
-  opacity: 0.7;
-}
->>>>>>> cbda6c9 (docs: update cv)
 /* FOOTER  */
 
 footer {
@@ -283,33 +201,15 @@ footer {
         width: 100%;
     }
     .nav {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 06a5d2a (feat: finish burger menu)
         flex-direction: column;
         align-items: flex-start;
         width: 90%;
         background: rgba(221, 221, 221, 0.9);
-<<<<<<< HEAD
         transition: 0.5s;
         border-bottom-right-radius: 100%;
         position: relative;
         top: -250px;
         left: -250px;
-=======
-        flex-wrap: wrap;
-        justify-content: center;
-        display: none;
-        transition: 0.5s;
->>>>>>> 0559064 (feat: add burger menu)
-=======
-        transition: 0.5s;
-        border-bottom-right-radius: 100%;
-        position: relative;
-        top: -250px;
-        left: -250px;
->>>>>>> 06a5d2a (feat: finish burger menu)
     }
     .nav-item {
         margin-right: auto;
@@ -343,19 +243,8 @@ footer {
     }
     .close_burger {
         top: 10px;
-<<<<<<< HEAD
-=======
     }
 }
-<<<<<<< HEAD
-@media (max-width:340px) {
-    header {
-        position: static;
->>>>>>> 0559064 (feat: add burger menu)
-    }
-}
-=======
->>>>>>> 00aa776 (fix: last fixes)
 @media (max-width:260px) {
     .title,
     .list,
